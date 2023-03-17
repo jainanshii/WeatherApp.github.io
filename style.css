@@ -1,0 +1,114 @@
+
+body{
+    background-image: url("https://www.capetownetc.com/wp-content/uploads/2022/11/pexels-roberto-nickson-2775196-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+button{
+ background-color: blanchedalmond;
+}
+nav ul{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style-type:none;
+    align-items:center;
+    
+}
+nav {
+    display:flex;
+}
+
+#searchcity{
+    width: 75%;
+    display:inline-block;
+    align-self: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:20px;
+    border-bottom: 2px solid black; 
+    background-color: transparent;
+    color:black;
+}
+h2{
+    text-align:center;
+    margin-left:150px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.weather2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: end;
+    justify-content: space-evenly;
+   align-content: flex-end;
+    bottom: 0px;
+}
+
+.flex{
+    border:2px solid black;
+    background-color:rgba(140, 129, 116,0.15) ;
+    bottom:0px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:150px;
+    height:150px;
+    color:rgb(239, 239, 159);
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size:50px;
+}
+h4{
+    font-size:10px;
+}
+img{
+    width:100px;
+    height:100px;
+}
+.weather2 div span{
+    font-size:20px;
+   
+    line-height: 30px;
+}
+.left{
+    float :left;
+}
+.right{
+    float:right;
+}
+.weather3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:2px solid black;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color:rgb(246, 246, 166);
+    font-size: 20px;
+    line-height:50px;
+    padding: 5px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.weather3 span span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}

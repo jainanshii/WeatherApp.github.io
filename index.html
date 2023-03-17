@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+   <nav>
+    <ul>
+      <!--  <li><h3>Weather App</h3></li>-->
+        <li><input type="search" id="searchcity" placeholder="Search Location" autofill></li>
+        <li><button id="submit" type="submit">Search</button></li>
+        <li><h2>Weather for <span id="cityname"></span></h2></li>
+    </ul>
+   </nav>
+
+   <div class="container">
+   
+    <div class="weather1 left">
+        <h3 id="cityname1"></h3></div>
+        <div class="weather3 right">
+           <span><span id="himidity">Humidity(%)  </span><span id="humidity"></span></span>
+           <span>  <span>wind degrees  </span><span id="wind_degrees"></span></span>
+           <span> <span>wind speed  </span><span id="wind_speed"></span></span>
+        </div>
+     
+   
+    </br></br>
+    <div class="weather2">
+        <div class="data1 flex"></br><span >Sunrise</span></br><span id="sunrise"></span></div>
+        <div class="data2 flex"></br><span >Sunset</span></br><span id="sunset"></span></div>
+        <div class="data4 flex"></br><span>Max  </span><span>Temperature</span><span>(&#8451)</span><span id="max_temp"></span></div>
+        <div class="data5 flex"></br><span>Temperature </span><span>in  &#8451</span><span id="temp"></span></div>
+        <div class="data6 flex"></br><span>Min</span><span>Temperature</span><span>(&#8451)</span><span id="min_temp"></span></div>
+        <div class="data3 flex"></br><span>Cloud_pct</span></br><span id="cloud_pct"></span></div>
+        <div class="data7 flex"></br><span>Feels_like</span></br><span id="feels_like"></span></div>
+      
+    </div>
+   
+</div>
+<script src="script.js"></script>
+</body>
+</html>
